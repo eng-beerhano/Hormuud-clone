@@ -1,0 +1,438 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+  --mincolor: hwb(120 3% 44% / 0.911);
+  --secondarycolor:white;
+  --whitegreen: rgb(164, 220, 164);
+  --gray: rgb(220, 218, 218);
+  --black:black;
+  --thitdcolor:red;
+body{
+  /* position: fixed; */
+    background-color: var(--gray) ;
+}
+}
+.header{
+  padding: 20px;
+  background-color: var(--secondarycolor);
+  display: flex;
+  justify-content: space-between;
+
+
+
+}
+.header .logo img{
+  width: 150px;
+}
+.header .menus ul{
+  display: flex;
+}
+.header .menus li{
+  list-style: none;
+  margin: 5px;
+  margin-top: 15px;
+}
+.header .menus li a{
+  text-decoration: none;
+  color: var(--black);
+  padding: 15px;
+  font-size: 26px;
+}
+.header .menus li a:hover{
+  color: var(--mincolor);
+}
+.header .icons i{
+  margin-top: 20px;
+  font-size: 26px;
+  position: relative;
+}
+.header .icons i:hover{
+  color: var(--mincolor);
+
+}
+.header.icons span{
+  position: absolute;
+  top: 29px;
+  right: 7px;
+  background-color: var(--mincolor);
+  color: var(--secondarycolor);
+  padding: 1px  5px;
+  border-radius: 50%;
+  font-size: 13px;
+}
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.header .personal{
+  padding: 10px;
+  display:flex ;
+  position: absolute;
+  background-color: white;
+  border-radius: 3px;
+  box-shadow: 2px 2px 12px black;
+  gap: 100px;
+  top: 86px;
+  display: none;
+}
+.header .personal ul{
+  display: block;
+}
+.header .personal span{
+  font-size: 20px;
+  font-weight: bold;
+  margin-left: 10px;
+}
+.header .menus .personal ul li a{
+  color: rgb(113, 110, 110);
+  font-size: 20px;
+  padding: 20px;
+
+}
+.header .menus ul .person:hover  .personal{
+  display: flex;
+}
+.header .person i{
+  font-size: 20px;
+}
+
+
+*{
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+}
+.header .bussines{
+padding: 10px;
+display:flex ;
+position: absolute;
+background-color: white;
+border-radius: 3px;
+box-shadow: 2px 2px 12px black;
+gap: 100px;
+top: 86px;
+display: none;
+}
+.header .bussines ul{
+display: block;
+}
+.header .bussines span{
+font-size: 20px;
+margin-left: 10px;
+}
+.header .bussines ul li a{
+color: rgb(83, 82, 82);
+font-size: 17px;
+padding: 20px;
+
+}
+
+
+.header .menus ul .bus:hover .bussines{
+display:flex;
+}
+  .bus i{
+  font-size: 25px;
+}
+.header .internet{
+  font-weight: bolder;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.bussines .services li span{
+  background-color: var(--mincolor);
+  padding: 2px;
+  font-size: 10px;
+  color: white;
+  font-weight: bolder;
+  border-radius: 2px;
+}
+.services{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  
+}
+
+.hero{
+  background-color: var(--mincolor);
+  height: 600px;
+  top:100px ;
+}
+.hero .round{
+  height: 550px;
+  background-color: white;
+  border-bottom-left-radius: 40px;
+  border-bottom-right-radius: 40px;
+  box-shadow: 0.1xp 0.1px 12px rgba(0, 0, 0, 0.4);
+
+}
+.hero .round .content{
+  height: 520px;
+  background-color: var(--gray);
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+.hero .content{
+  display: flex;
+ 
+}
+.bussines .services .ser{
+   font-weight: bolder; 
+}
+.hero .content h1{
+  color: var(--mincolor);
+  font-size: 60px;
+  margin-top: 80px;
+  font-weight: bolder;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-left: 5px;
+}
+.hero .content p{
+  font-weight: bold;
+  margin-bottom: 30px;
+  margin-left: 5px;
+}
+.hero .content a{
+  text-decoration: none;
+  background-color: var(--mincolor);
+  color: var(--secondarycolor);
+  padding: 20px 40px;
+  border-radius: 7px;
+  font-size: 22px;
+  margin-left: 5px;
+}
+.center .box .left img{
+    width: 120px;
+    height: 120px;
+}
+.box{
+   position: relative;
+   bottom: 40px;
+}
+.center .box .right{
+    margin-top: 30px;
+
+}
+.center .box{
+    display: flex;
+    background-color:white;
+    border: 2px solid white;
+    width: 400px;
+    margin-left: 25px;
+    border-radius: 9px;
+}
+.center{
+    display: flex;
+}
+.WHITE{
+    width: 100%;
+    height: 700px;
+    background-color: white;
+}
+.center span{
+  color: gray;
+  font-size: 20px;
+}
+
+
+.xayaysiin{
+  margin-top: 7%;
+  display: flex;
+ padding-left: 30px;
+}
+.xayaysiin img{
+  width: 500px;
+  margin-right: 10%;
+}
+.xayaysiin img:hover{
+  transform: scale(1.1);
+}
+.xayaysiin .qoraal h2{
+  margin-top: 30px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  font-size: 40px;
+}
+.xayaysiin .qoraal p{
+  font-size: 24px;
+  line-height: 26px;
+  color: rgb(76, 75, 75);
+  margin-bottom: 6%;
+}
+.xayaysiin button{
+  padding: 10px 28px;
+  background-color: var(--mincolor);
+  border: none;
+  border-radius: 40px;
+  font-size: 22px;
+}
+.xayaysiin button:hover{
+  background-color: green;
+}
+/* personal_products */
+
+.personal_products{
+  margin-top: 100px;
+}
+.personal_products h2,p{
+  text-align: center;
+}
+
+.personal_products p{
+  font-size: 20px;
+  margin-top: 20px;
+  color: rgb(65, 65, 65);
+}
+
+.personal_products .boxs .box{
+  margin-top: 30px;
+  background-color: var(--second-color);
+  height: 130px;
+  width: 250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.personal_products .boxs .box span{
+  font-weight: bold;
+  font-size: 22px;
+
+}
+.personal_products .boxs .box i{
+  background-color: var(--whitegreen);
+  padding: 20px 20px;
+  border-radius: 50%;
+  color: #0c8e20;
+  margin-right: 10px;
+}
+.boxs{
+  padding-left: 40px;
+  display: grid;
+  grid-template-columns: 300px 300px 300px 300px;
+}
+
+
+
+/* business_products */
+
+.business_products{
+  margin-top: 100px;
+  margin-bottom: 25px;
+}
+
+.business_products H2{
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.business_products .boxs{
+  gap: 10px;
+  margin-top: 30px;
+}
+
+
+.business_products .boxs .box{
+  margin-top: 40px;
+
+  background-color: var(--main-color);
+  height: 450px;
+  width: 280px;
+  border-radius: 10px;
+  color: var(--second-color);
+}
+.business_products .boxs .box img{
+  width: 60px;
+  height: 60px;
+  border: 4px solid var(--second-color);
+  margin-left: 30px;
+  margin-top: 30px;
+  border-radius: 7px;
+}
+
+.business_products .boxs .box h2{
+font-size: 30px;
+margin-top: 40px;
+margin-left: -70px;
+}
+
+.business_products .boxs .box p{
+  font-size: 24px;
+  padding: 20px;
+  line-height: 40px;
+}
+
+.business_products .boxs .box:hover{
+  transform: translateY(-20px);
+  cursor: pointer;
+}
+
+.business_products .boxs  .blue{
+  background-color: rgb(25, 167, 206);
+}
+
+.business_products .boxs  .black{
+  background-color: rgb(0, 0, 0);
+  color: white;
+}
+
+/* footer */
+
+.footer .TOP{
+  display: flex;
+  justify-content: space-between;
+}
+.footer{
+  background-color: rgb(57, 56, 56);
+  padding: 20px;
+  margin-top: 7%;
+  height: 380px;
+}
+.footer .TOP img{
+  width: 200px;
+}
+.footer .TOP .news h4{
+font-size: 30px;
+color: var(--second-color);
+}
+.footer .TOP .news p{
+  font-size: 20px;
+  color: gray;
+}
+
+.footer .TOP .input input{
+
+  padding: 8px;
+  width: 200px;
+}
+.footer .TOP .input button{
+  background-color: var(--main-color);
+  padding: 14px 24px;
+  border: none;
+  border-radius: 8px;
+  color: var(--second-color);
+}
+
+.footer .list{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.footer .list ul li{
+    list-style: none;
+    color: #fff;
+}
+
+.footer .list ul li b{
+  display: block;
+}
+
+.footer hr{
+  margin-top: 30px;
+}
+.packages .boxs {
+  margin-top: 30px;
+  bac
+}
